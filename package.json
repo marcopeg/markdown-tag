@@ -1,6 +1,6 @@
 {
-  "name": "polite-markdown-tag",
-  "version": "0.0.0",
+  "name": "markdown-tag",
+  "version": "0.1.0",
   "description": "parse tag delimited markdown from a text source",
   "main": "index.js",
   "scripts": {
