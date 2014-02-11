@@ -25,7 +25,7 @@
 		"html",
 		"tag"
 	],
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "dependencies": {
     "marked": "~0.3.1"
   },
