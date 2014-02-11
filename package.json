@@ -1,0 +1,38 @@
+{
+  "name": "polite-markdown-tag",
+  "version": "0.0.0",
+  "description": "parse tag delimited markdown from a text source",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+		"name": "Marco Pegoraro",
+		"email": "marco.pegoraro@gmail.com"
+	},
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/thepeg/markdown-tag"
+	},
+    "bugs": {
+		"url": "https://github.com/thepeg/markdown-tag/issues"
+	},
+    "readmeFilename": "README.md",
+    "keywords": [
+		"markdown",
+		"parse",
+		"parser",
+		"html",
+		"tag"
+	],
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "marked": "~0.3.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-mocha-chai-sinon": "0.0.7",
+    "grunt-contrib-watch": "~0.5.3",
+    "open": "0.0.4"
+  }
+}
