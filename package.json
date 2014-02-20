@@ -1,6 +1,6 @@
 {
   "name": "markdown-tag",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "parse tag delimited markdown from a text source",
   "main": "index.js",
   "scripts": {
