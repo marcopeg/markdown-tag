@@ -1,15 +1,16 @@
 {
   "name": "markdown-tag",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "parse tag delimited markdown from a text source",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt"
   },
   "author": {
     "name": "Marco Pegoraro",
     "email": "marco.pegoraro@gmail.com"
   },
+  "homepage" : "http://movableapp.com/2014/02/markdown-tag-parser/",
   "repository": {
     "type": "git",
     "url": "https://github.com/thepeg/markdown-tag"
