@@ -41,8 +41,22 @@ var markdownTag = require('markdown-tag');
 var html = markdownTag(fs.readFileSync('index.html', 'utf8'));
 ```
 
+#### Custom Delimiters
 
-## Test
+With version `0.2.0` you can specify your custom delimiters.
+
+Take a look at the following chunk of _HTML_ page:
+
+    <!-- Markdown -->
+    my **Markdown** _template_
+    <!-- /Markdown -->
+
+then you can parse it this way:
+
+    markdownTag(html, '<!-- Markdown -->', '<!-- /Markdown -->');
+
+
+## Tests
 
 I wrote some basic tests for this utility. In order to run the tests you need _GruntJS_ to 
 be installed globally in your machine.
@@ -54,5 +68,5 @@ npm install && grunt
 
 ## Parsed with Marked
 
-So far I use [Marked](https://www.npmjs.org/package/marked) for the real _Markdown_ parsing but I'm looking for a parser
-which accept a little more expanded syntax.
+So far I use [Marked](https://www.npmjs.org/package/marked) for the real _Markdown_ 
+parsing but I'm looking for a parser which accept a little more expanded syntax.

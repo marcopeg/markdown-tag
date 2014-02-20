@@ -11,9 +11,9 @@
 
 var marked = require('marked')
 
-module.exports = function(html) {
-    var openTag = '<markdown-tag>';
-    var closeTag = '</markdown-tag>';
+module.exports = function(html, openTag, closeTag) {
+    openTag = openTag || '<markdown-tag>';
+    closeTag = closeTag || '</markdown-tag>';
 
     var startIdx = html.indexOf(openTag);
     var safeWhile = 100;

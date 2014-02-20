@@ -59,7 +59,6 @@ module.exports = function(grunt) {
 	
 	grunt.loadNpmTasks('grunt-mocha-chai-sinon');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('open');
 
 
 	/**
